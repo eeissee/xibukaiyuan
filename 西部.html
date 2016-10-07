@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>西部开源首页</title>
+<link rel="stylesheet" type="text/css" href="csss/css.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/holder.min.js"></script>
+<script>
+$(function(){
+	$i=$(".j img");
+	for(var i=0;i<$i.length;i++)
+	{
+		$i.eq(i).attr('index',i);
+	}
+		
+		for(var i=0;i<$i.length;i++)
+	{
+		$i.eq(i).hover(function(){
+		$(this).css('opacity','0.5');
+		},function(){
+			$(this).css('opacity','1');
+			});
+	}
+	
+	$a=$(".kuai");
+	for(var i=0;i<$a.length;i++)
+	{
+		$a.eq(i).attr('index',i);
+	}
+	for(var i=0;i<$a.length;i++)
+	{
+		$a.eq(i).hover(function(){
+			
+			var m=$(this).attr('index');
+			m++;
+			$("#e img").replaceWith('<img src=西部开源网页图片/'+m+'.gif>');
+			},function(){
+			
+			$("#e img").replaceWith('<img src=西部开源网页图片/'+1+'.gif>');
+			});
+	}
+	
+	$("#fukuang img").eq(3).hover(function(){
+			$("#fukuang").slideUp(2000);
+			},function(){
+				$("#fukuang").show(2000);
+				});
+	
+	var $p=$("#photo");
+	var $pu=$("#photo ul");
+	var pu=$("#photo ul")[0];
+    $("#photo ul li").clone().appendTo($("#photo ul"));
+	$pu.css('width','1300px');
+	
+	var speed=1;
+	var timer=null;
+	timer=setInterval(function(){
+		if(pu.offsetLeft>0)
+		{
+			pu.style.left=-pu.offsetWidth/2+'px';
+		}
+		else
+		{
+			pu.style.left=pu.offsetLeft+speed+'px';
+		}
+		
+		},30);
+	
+	});
+
+</script>
+
+
+</head>
+
+<body>
+<div class="nav">
+  <div id="a">
+    <p class="font01"><img src="西部开源网页图片/38.17.jpg">客服热线：4000-000-000<span>|</span>关注我们<img id="im" src="西部开源网页图片/39.17.jpg"></p>
+  </div>
+  <div id="b"><p class="font01">您好！欢迎来到西部开源技术中心<span>&nbsp;|&nbsp;</span>帮助中心</p></div>
+</div>
+<div id="c">
+  <img id="imgg" src="西部开源网页图片/11.17.jpg"><p class="font02">享受开源  体验自由</p>
+  <div id="cright">
+          <img id="cpho" src="西部开源网页图片/学生入口-首页-1_03.gif"><img id="cpho" src="西部开		源网页图片/学生入口-首页0000_05.gif"><img id="cpho" src="西部开源网页图片/学生入口-首页-11_05.gif">
+  </div>
+</div>
+<div id="d">
+	<ul> 
+    	<li><a href="#">关于开源</a></li>
+    	<li><a href="#">新闻动态</a></li>
+        <li><a href="#">教育培训</a></li>
+        <li><a href="#">学习视频</a></li>
+        <li><a href="#">就业招聘</a></li>
+        <li><a href="#">考务系统</a></li>
+        <li><a href="#">企业技术支持</a></li>
+        <li><a href="#">联系我们</a></li>
+    </ul>
+    <input id="txt" type="text" name="txt" value="">
+    <div id="go"><a href="#">GO</a></div>
+</div>
+<div id="e"><img src="西部开源网页图片/1.gif">
+	
+</div>
+<div id="f">
+	<div id="tt"><p class="font01">最新公告：【西部开源技术中心参加2015年西部教育论坛】</p></div>
+    <div id="ttt"><p class="font01">账号</p>
+    <input id="txt1" type="text" name="txt1" value="">
+    <div id="tttt"><p class="font01">密码</p>
+    <input id="txt1" type="text" name="txt1" value="">
+    </div>
+    <div id="denglu"><p class="font03">登&nbsp;录</p></div>
+    <div id="zhuce">
+    <p class="font04">快速注册</p>
+    </div>
+    </div>
+</div>
+<div id="g">
+	<div id="box">
+    	<div id="i"><img src="西部开源网页图片/16.17.jpg"></div>
+        <div class="j">
+        <img src="西部开源网页图片/17_03.gif"><img src="西部开源网页图片/18.17.jpg">
+        <img src="西部开源网页图片/19.17.jpg"><img src="西部开源网页图片/20_03.gif"></div>
+            <div class="k"><img src="西部开源网页图片/21.17.jpg"><img src="西部开源网页图片/22.17.jpg"><img src="西部开源网页图片/23.17.jpg"><img id="kk" src="西部开源网页图片/24.17.jpg"><img id="kk" src="西部开源网页图片/25.17.jpg"></div>
+        <div class="mainleft">
+        <div class="l">
+        	<div id="kkk"><img src="西部开源网页图片/26.17.jpg">
+            <ul>
+             	<li>2015年11月11日<br><p class="font05">互动四GV扶额风格为ice愤怒阿甘就</p></li>
+                <li>2015年11月13日<br><p class="font05">技术如果业务二次感染易成为额擦完</p></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+        <div class="mainright">
+        	<ul>
+            	<li>学员：王佳&nbsp;毕业院校：西安石油大学&nbsp;专业：C开发工程师&nbsp;就业单位：小米国际</li>
+                <li>学员：王佳&nbsp;毕业院校：西安石油大学&nbsp;专业：C开发工程师&nbsp;就业单位：小米国际</li>
+                <li>学员：王佳&nbsp;毕业院校：西安石油大学&nbsp;专业：C开发工程师&nbsp;就业单位：小米国际</li>
+                <li>学员：王佳&nbsp;毕业院校：西安石油大学&nbsp;专业：C开发工程师&nbsp;就业单位：小米国际</li>
+            </ul>
+        	<div class="tutu">
+            	<div class="tutu1"><img src="西部开源网页图片/28.17.jpg">
+                	<ul>
+                    	<li>企业名称：华为国际</li>
+                        <li>合作项目：网络服务器优化项目</li>
+                        <li>项目简介：华为技术有限公司是一家生产<br/>销售通信设备的民营通信科技公司</li>
+                    </ul>
+                </div>
+                <div class="tutu2"><img src="西部开源网页图片/29.17.jpg">
+                	<ul>
+                    	<li>企业名称：京东商城</li>
+                        <li>合作项目：网络服务器优化项目</li>
+                        <li>项目简介：是中国最大的自营式电商企业，2015年第一<br/>季度在中国自营式B2C电商市场的占有率为56.3%，目<br/>前，京东集团旗下设有京东商城</li>
+                    </ul>
+                
+                </div>
+            </div>
+        </div>
+        <div id="m"><img src="西部开源网页图片/30.17.jpg"></div>
+        <div id="photo">
+        	<ul>
+            	<li><img src="西部开源网页图片/31.17.jpg"></li>
+                <li><img src="西部开源网页图片/32.17.jpg"></li>
+                <li><img src="西部开源网页图片/33.17.jpg"></li>
+                <li><img src="西部开源网页图片/34.17.jpg"></li>
+                <li><img src="西部开源网页图片/35.17.jpg"></li>
+            </ul>
+        
+        </div>
+        
+    </div>
+    <div id="oo">
+    	<ul>
+        <li><a href="#">合作企业</a></li>
+        <li><a href="#">百度中国</a></li>
+        <li><a href="#">搜狐中国</a></li>
+        <li><a href="#">小米国际</a></li>
+        <li><a href="#">阿里巴巴</a></li>
+        <li><a href="#">华为国际</a></li>
+        <li><a href="#">天猫国际</a></li>
+        <li><a href="#">京东商城</a></li>
+        <li><a href="#">更多合作企业</a></li>
+        </ul>
+    </div>
+    <div class="small">
+    	<div class="kuai"></div>
+        <div class="kuai"></div>
+        <div class="kuai"></div>
+        <div class="kuai"></div>
+    </div>
+    <div class="p">
+    	<img class="q" src="西部开源网页图片/37.17.jpg">
+        <div class="qqq">
+        <p class="font06">关于开源<span>&nbsp;|&nbsp;</span>教育培训<span>&nbsp;|&nbsp;</span>学习视频<span>&nbsp;|&nbsp;</span>企业技术支持<br><br>地址：西安太白南路181号西部电子社区A座C区506室  联系电话：029-86699937 邮箱：west@vip.com<br><br>Copyright  2015 西部开源技术中心 www.westos.org.AllRights Reserved陕ICP11026152号.13</p>
+        </div>
+        <img class="qq" src="西部开源网页图片/36.17.jpg">
+    </div>
+</div>
+<div id="fukuang"><img src="西部开源网页图片/学生入口-首页-11_04.gif"><img src="西部开源网页图片/学生入口-首页-11_07.gif"><img src="西部开源网页图片/学生入口-首页-11_08.gif"><img src="西部开源网页图片/学生入口-首页-11_09.gif"></div>
+<div id="fu"><img src="西部开源网页图片/学生入口-首页-11_03.gif"></div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0px;
+	padding:0pa;
+	border:0px;
+}
+.nav { width:1200px;
+		height:30px;
+		background:#EBEBEB;
+		margin:auto;
+}
+#a { width:340px;
+	height:30px;
+	margin-left:50px;
+	float:left;
+}
+#b { width:300px;
+	height:30px;
+	margin-left:860px;
+	margin-top:-30px;
+	float:left;
+}
+#c{ width:1200px;
+	height:110px;
+	margin:auto;
+}
+#imgg { width:199px;
+		height:99px;
+		margin:auto;
+		margin-left:100px;
+		float:left;
+}
+#cright { width:302px;
+			height:70px;
+			margin-left:400px;
+			margin-top:-50px;
+			float:left;
+}
+			
+#cpho { width:80px;
+		height:70px;
+		margin-left:20px;
+			
+}
+#d { width:1200px;
+	height:40px;
+	background:#990;
+	margin:auto;
+}
+#d ul { text-decoration:none;
+		list-style:none;
+		width:780px;
+		margin-left:50px;
+		float:left;
+}
+#d ul li { float:left;
+			width:85px;
+			height:40px;
+			text-align:center;
+}
+#d ul li a:link { text-decoration:none;
+					font-size:14px;
+					line-height:40px;
+					text-align:center;
+					color:#FFF;
+}
+#d ul li a:hover{ display:block;
+					background:#733900;
+}
+#txt { border:1px solid;
+		margin-top:10px;
+		float:left;
+}
+#go { width:30px;
+		height:26px;
+		border:1px solid;
+		border-radius:5px;
+		background:#733900;
+		margin-left:18px;
+		margin-top:5px;
+		float:left;
+}
+#go a { display:block;
+}
+#go a:link { text-decoration:none;
+					font-size:14px;
+					line-height:28px;
+					text-align:center;
+					padding-left:3px;
+					color:#FFF;
+}
+#go a:hover{
+			
+}
+#e { width:1200px;
+	height:300px;
+	margin:auto;
+}
+#e img { width:1200px;
+		height:300px;
+		margin-top:5px;
+}
+
+#tt{ width:370px;
+	height:30px;
+	margin-left:120px;
+	margin-top:10px;
+	float:left;
+}
+
+.font01 { font-size:14px;
+			color:#7C7C7C;
+			line-height:26px;
+			
+}
+.font02 { font-size:20px;
+			color:#7C7C7C;
+			font-style:"宋体";
+			line-height:26px;
+			letter-spacing:3px;
+			float:left;
+			width:200px;
+			margin-top:50px;
+}
+.font03 { font-size:14px;
+			color:#390;
+			font-family:Verdana, Geneva, sans-serif;
+			font-weight:bold;
+			line-height:18px;
+			text-align:center;
+}
+
+.font04 { font-size:14px;
+			color:#753A00;
+}
+.font05 { font-size:12px;
+			opacity:0.8;}
+.font06 { font-size:12px;
+			color:#FFF;
+			font-weight:bold;
+}
+.font07 { font-size:14px;
+			text-align:center;
+			letter-spacing:1px;
+}
+.font08 { font-size:14px;
+			color:#FF9D3C;
+			text-align:center;
+			letter-spacing:1px;
+}
+#a img { width:40px;
+		height:30px;
+		float:left;
+}
+#im { margin-left:235px;
+		margin-top:-26px;	
+}
+#g { width:1200px;
+	height:700px;
+	background:#F7F7F7;
+	margin:-62px auto;
+}
+#box{width:700px;
+		height:500px;
+		margin:auto;
+		
+}
+#lianxi { width:280px;
+			height:50px;
+			margin-top:80px;
+			margin-left:200px;
+}
+#lainxi2 { width:500px;
+				height:160px;
+				
+				margin:auto;
+				margin-top:40px;
+}
+#lianxi img { width:260px;
+				height:50px;
+}
+#oo { width:1200px;
+	height:40px;
+	background:#6F6F00;
+	margin:auto;
+}
+#oo ul { width:950px;
+		height:40px;
+		text-decoration:none;
+		list-style:none;
+		margin-left:50px;
+}
+#oo ul li { width:100px;
+			float:left;
+			display:block;
+}
+
+#oo li a:link { text-decoration:none;
+				font-size:13px;
+				line-height:40px;
+				text-align:center;
+				color:#FFF;
+				display:block;
+}
+#oo li a:hover { font-size:16px;
+					background:#BA7C14;
+					color:#603000;
+}
+#fukuang { width:60px;
+			height:216px;
+			position:absolute;
+			top:560px;
+			left:1190px;
+}
+#fukuang img { width:60px;
+				height:50px;
+}
+#fu { width:100px;
+		height:40px;
+		position:absolute;
+		top:560px;
+		left:1090px;
+}
+#fu img { width:100px;
+			height:40px;
+}
+.p { width:1200px;
+	height:200px;
+	background:#a6b51c;
+	margin:auto;
+	margin-top:5px;
+}
+.q { margin-left:180px;
+	margin-top:50px;
+	width:200px;
+	float:left;
+	height:120px;
+}
+.qq { margin-left:130px;
+		margin-top:45px;
+		width:200px;
+		float:left;
+		height:130px;
+}
+.qqq { width:400px;
+		height:100px;
+		margin-top:50px;
+		float:left;
+		margin-left:20px;
+}
